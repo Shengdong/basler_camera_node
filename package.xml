@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>basler_camera_node</name>
+  <version>0.0.3</version>
+  <description>A catkin version of the basler pylon5 camera driver for Laptop</description>
+
+  <maintainer email="Samuel.xu1988@gmail.com">Xus</maintainer>
+  <author>Shengdong Xu</author>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>eigen</build_depend>
+  <build_depend>opencv2</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <run_depend>eigen</run_depend>
+  <run_depend>opencv2</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>cv_bridge</run_depend>
+
+  <export>
+  </export>
+</package>
